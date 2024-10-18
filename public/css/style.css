@@ -1,0 +1,33 @@
+/* public/css/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar-left {
+    width: 20%;
+    background: #f4f4f4;
+    padding: 1rem;
+}
+
+.content {
+    width: 80%;
+    padding: 1rem;
+}
+
+.form-section, .list-section {
+    margin-bottom: 2rem;
+}
